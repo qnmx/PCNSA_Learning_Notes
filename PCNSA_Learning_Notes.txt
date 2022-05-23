@@ -605,3 +605,16 @@ NAT Policy:
 - Supported on PA-2000, 3000, 4000, 5000 and 7000 models
 - To enable Virtual System
   Device > Setup > Management > General Settings > Multi System Capability
+  
+# PAN-OS Upgrades
+
+- Base - Full software version image
+- Maintenance - Fixes/updates for the running software version image
+
+# Palo Alto Maintenance Recovery Tool
+
+- To enter maintenace boot:
+  During the Palo Alto firewall initial boot
+  When prompted, type maint and press Enter before auto-boot continues
+  Once in the partition selection screen, select PANOS(maint)
+  PANOS(sysroot0) - main partition
